@@ -39,5 +39,5 @@
 
 上线拿到正式域名后建议补两项（现在因为没有域名先空着）：
 
-1. `<head>` 里加 `<link rel="canonical" href="https://正式域名/">`
+1. 已加 canonical / og:url 指向 GitHub Pages 地址；换自定义域名时同步改掉
 2. 加 `<meta property="og:image" content="https://正式域名/assets/og.png">`（1200×630 分享图，需另做）
