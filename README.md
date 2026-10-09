@@ -33,11 +33,9 @@
 
 **现在的线上地址**：https://vastsea8890-ux.github.io/momco-website/
 由公开仓库 `vastsea8890-ux/momco-website` 的 GitHub Pages（main / root）发布。
-源文件以 `tmc-church/momco-website/` 为准，改完提交后在 `tmc-church` 根目录运行下面这条命令同步上线：
-
-```bash
-git subtree push --prefix=momco-website https://github.com/vastsea8890-ux/momco-website.git main
-```
+源文件以 `tmc-church/momco-website/` 为准，**只改这里，不要直接改公开仓库**。
+改完提交并推送 `tmc-church` 的 main，GitHub Actions（`.github/workflows/sync-momco-website.yml`）会自动把这个文件夹同步到公开仓库，1〜2 分钟后上线。
+要手动重新发布：GitHub 上 tmc-church → Actions → Sync MomCo website → Run workflow。
 
 其他托管方式（都是把这个文件夹原样上传）：
 
