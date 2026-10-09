@@ -31,9 +31,16 @@
 
 ## 部署
 
-任选其一，都是把这个文件夹原样上传：
+**现在的线上地址**：https://vastsea8890-ux.github.io/momco-website/
+由公开仓库 `vastsea8890-ux/momco-website` 的 GitHub Pages（main / root）发布。
+源文件以 `tmc-church/momco-website/` 为准，改完提交后在 `tmc-church` 根目录运行下面这条命令同步上线：
 
-- **GitHub Pages**：新建仓库 → 上传全部文件 → Settings → Pages → Branch: main / root。
+```bash
+git subtree push --prefix=momco-website https://github.com/vastsea8890-ux/momco-website.git main
+```
+
+其他托管方式（都是把这个文件夹原样上传）：
+
 - **Netlify / Cloudflare Pages**：把文件夹拖进控制台即可。
 - 教会现有网站空间：FTP 上传到某个子目录（如 `/momco/`），所有路径都是相对路径，放哪都能用。
 
