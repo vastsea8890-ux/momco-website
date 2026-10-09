@@ -27,13 +27,13 @@
 
 ## 更新海报 PDF
 
-把新的 PDF 覆盖到 `assets/momco-japanese.pdf` / `assets/momco-english.pdf`，文件名不变即可。
+把新的 PDF 覆盖到 `assets/momco-japanese.pdf` / `assets/momco-english.pdf`，文件名不变即可（与仓库 `成品/MomCo_A3_Japanese.pdf` / `MomCo_A3_English.pdf` 是同一份，要一起换）。
 
 ## 部署
 
 **现在的线上地址**：https://vastsea8890-ux.github.io/momco-website/
 由公开仓库 `vastsea8890-ux/momco-website` 的 GitHub Pages（main / root）发布。
-源文件以 `tmc-church/momco-website/` 为准，**只改这里，不要直接改公开仓库**。
+源文件以 `tmc-church/代码/momco-website/` 为准，**只改这里，不要直接改公开仓库**。
 改完提交并推送 `tmc-church` 的 main，GitHub Actions（`.github/workflows/sync-momco-website.yml`）会自动把这个文件夹同步到公开仓库，1〜2 分钟后上线。
 要手动重新发布：GitHub 上 tmc-church → Actions → Sync MomCo website → Run workflow。
 
