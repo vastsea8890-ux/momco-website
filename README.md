@@ -27,7 +27,7 @@
 
 ## 更新海报 PDF
 
-把新的 PDF 覆盖到 `assets/momco-japanese.pdf` / `assets/momco-english.pdf`，文件名不变即可（与仓库 `成品/MomCo_A3_Japanese.pdf` / `MomCo_A3_English.pdf` 是同一份，要一起换）。
+把新的 PDF 覆盖到 `assets/momco-japanese.pdf` / `assets/momco-english.pdf`，文件名不变即可。现在放的还是旧的 A3 版；新版海报是 `成品/MomCo_MomKid_A5_日英.pdf`（A5，第 1 页英文、第 2 页日文）。
 
 ## 部署
 
